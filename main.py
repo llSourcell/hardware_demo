@@ -9,7 +9,6 @@ if __name__ == '__main__':
 
     # start and get contents of stream
     vs = PiVideoStream().start()
-    vs.camera.rotation = -90
     
     # create blinds object
     blinds = Blinds()
@@ -20,14 +19,6 @@ if __name__ == '__main__':
             continue
         
         cv2.imshow("Frame", image)
-        # this is needed if we want to see the debug output in the opencv
-        # frame. but this increases flicker since will wait 1ms for key press
-        # and 1ms is perceptible to our eyes when watch display refresh
-        key = cv2.waitKey(1) & 0xFF
-
-        # if the `q` key was pressed, break from the loop
-        if key == ord("q"):
-            break 
 
         # get matching rects
         rects = vs.read_rects()

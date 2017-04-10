@@ -58,3 +58,7 @@ PWM software control on the Pi
 PyImageSearch Python OpenCV Tutorials
   * [PyImageSearch face detector in 5 minutes](http://www.pyimagesearch.com/2015/05/11/creating-a-face-detection-api-with-python-and-opencv-in-just-5-minutes/)
   * [PyImageSearch increase Pi camera FPS fps](http://www.pyimagesearch.com/2015/12/21/increasing-webcam-fps-with-python-and-opencv/)
+  
+# Credits
+
+Credits go to [Etan](https://github.com/etanzapinsky) and Siraj

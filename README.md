@@ -2,6 +2,8 @@
 
 
 # voyeur
+
+This is the code for [this](https://www.youtube.com/watch?v=YKtbO6iW9-Y) video by Siraj Raval on Youtube.
 Voyuer is the code used to control a robotic Venetian blind. It consists of a Raspberry Pi 3, a camera and screen to display the camera output. It using OpenCV to control a servo to close a Venetion blind when it detects a face and open a Venetian blind when it doesn't detect a face.
 
 The goal of the work is to question how we interact with technology. Is looking at our screens similar to looking through windows? What permission do we have to look through these windows? Who is controlling what we see through these screens? What happens if the screens react to our presence?
